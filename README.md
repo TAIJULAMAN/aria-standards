@@ -26,6 +26,13 @@ Common ARIA roles include:
 - `alert`: Important, time-sensitive information
 - `dialog`: A dialog or application window
 - `banner`: Site-oriented content at the beginning of each page
+- `textbox`: A text input field
+- `radio`: A radio button
+- `checkbox`: A checkbox
+- `menuitem`: A menu item
+- `menubar`: A menu bar
+- `tab`: A tab
+- `tablist`: A tab list
 
 ### Properties
 ARIA properties provide additional information about an element's characteristics or relationships.
@@ -35,14 +42,20 @@ Examples:
 - `aria-labelledby`: Identifies the element that labels the current element
 - `aria-hidden`: Indicates whether an element is exposed to the accessibility API
 - `aria-expanded`: Indicates whether a control is expanded or collapsed
+- `aria-selected`: Indicates the current "selected" state of various widgets
+- `aria-checked`: Indicates the current "checked" state of various widgets
+- `aria-pressed`: Indicates the current "pressed" state of various widgets
+- `aria-invalid`: Indicates the entered value does not conform to the format expected
+
 
 ### States
 ARIA states define the current condition of an element.
 
 Examples:
-- `aria-disabled": "true"`: Indicates that the element is currently disabled
+- `aria-disabled="true"`: Indicates that the element is currently disabled
 - `aria-selected="true"`: Indicates the current "selected" state of various widgets
 - `aria-invalid="true"`: Indicates the entered value does not conform to the format expected
+
 
 ## Best Practices
 
